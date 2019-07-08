@@ -80,8 +80,6 @@ class MainActivity : AppCompatActivity() {
       urlTextView.text = placeDetails.url
       utcOffsetTextView.text = placeDetails.utcOffset.toString()
       vicinityTextView.text = placeDetails.vicinity
-      compoundCodeTextView.text = placeDetails.compoundPlusCode
-      globalCodeTextView.text = placeDetails.globalPlusCode
     }
   }
 

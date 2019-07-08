@@ -12,7 +12,5 @@ data class PlaceDetails(
   val placeId: String,
   val url: String,
   val utcOffset: Int,
-  val vicinity: String,
-  val compoundPlusCode: String,
-  val globalPlusCode: String
+  val vicinity: String
 )
